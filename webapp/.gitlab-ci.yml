@@ -13,7 +13,7 @@ variables:
   APP_NAME: webapp-demo
   CI_REGISTRY_IMAGE: yurisousan/$APP_NAME
   CD_CHART_REPO: webapp-chart
-  CD_GIT_REPOSITORY: git@gitlab.com:gitops-argocd-demo/$CD_CHART_REPO.git
+  CD_GIT_REPOSITORY: git@gitlab.com:l2548/$CD_CHART_REPO.git
   CD_MANIFEST_FILE: Chart.yaml
   TAG: $CI_COMMIT_REF_NAME-$CI_COMMIT_SHORT_SHA
 
